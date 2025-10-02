@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="es" data-bs-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="./client/img/logo.png" type="image/png">
+  <title>Ricardo Alexis | Desarrollador de Software</title>
+  <meta name="description" content="Desarrollador de software full stack. Experiencia en Node.js, Angular, automatizacion y bases de datos SQL/NoSQL." />
+  <link rel="canonical" href="https://TU_USUARIO.github.io/TU_REPO/" />
+  <meta property="og:title" content="Ricardo Alexis | Desarrollador de Software" />
+  <meta property="og:description" content="Portafolio, proyectos y experiencia profesional de Ricardo Alexis Martinez Avila." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-image.jpg" />
+  <meta name="theme-color" content="#0a3324" />
+
+  <!-- Tipografia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./client/style/index.css">
+
+  <!-- Datos estructurados -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Ricardo Alexis Martinez Avila",
+    "jobTitle":"Desarrollador de software",
+    "email":"mailto:ricardo.alexis031299@gmail.com",
+    "url":"https://TU_USUARIO.github.io/TU_REPO/"
+  }
+  </script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#nav" data-bs-smooth-scroll="true" tabindex="0">
+  <div id="scrollProgress"><div class="bar"></div></div>
+
+  <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary shadow-sm" data-reveal="down">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="#">Ricardo Alexis</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Alternar navegacion">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#feed">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="d-flex align-items-center gap-2">
+          <a class="btn btn-ghost btn-sm btn-raise" href="#" target="_blank" rel="noopener">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <button id="themeBtn" class="btn btn-outline-secondary btn-raise btn-md" type="button" aria-label="Cambiar tema">
+            <i class="bi bi-brightness-high"></i><span class="d-none d-sm-inline"> Claro</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero hero-dark">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-12 col-lg-7" data-reveal="up">
+          <span class="badge text-uppercase badge-senior mb-3"><i class="bi bi-cpu me-1"></i> Ing. Sistemas Computacionales</span>
+          <h1 class="display-5 fw-bold mb-3 title">Ricardo Alexis | Desarrollador de Software</h1>
+          <p class="lead mb-4">
+            Full Stack con foco en Node.js, Angular, automatizacion de procesos y bases de datos SQL/NoSQL. Me especializo en construir plataformas robustas, integraciones seguras y experiencias web pulidas inspiradas en productos sociales modernos.
+          </p>
+          <div class="d-flex flex-wrap gap-2">
+            <a class="btn btn-gradient btn-raise btn-md" href="#" target="_blank" rel="noopener">
+              <i class="bi bi-file-earmark-arrow-down me-1"></i> Descargar CV
+            </a>
+            <a class="btn btn-outline-lime btn-raise btn-md" href="#contacto">
+              <i class="bi bi-chat-dots me-1"></i> Vamos a conversar
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5" data-reveal="right">
+          <div class="profile-card hero-card text-center">
+            <div class="hero-avatar-wrap">
+              <img src="./client/img/traje.png" alt="Foto de Ricardo Alexis" class="avatar interactive" loading="lazy">
+              <span class="status-dot" aria-hidden="true"></span>
+            </div>
+            <div class="hero-meta mt-3">
+              <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <div class="metric">
+                  <small>Experiencia</small>
+                  <strong>2+ año</strong>
+                </div>
+                <div class="metric">
+                  <small>Proyectos</small>
+                  <strong>20+</strong>
+                </div>
+                <div class="metric">
+                  <small>Stack</small>
+                  <strong>Full Stack Jr</strong>
+                </div>
+              </div>
+            </div>
+            <div class="hero-actions mt-4">
+              <a class="btn btn-ghost btn-sm btn-raise" href="#">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section-highlight">
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-md-4" data-reveal="up">
+          <div class="highlight-card">
+            <i class="bi bi-lightning-charge-fill"></i>
+            <h3>Arquitectura escalable</h3>
+            <p>Endpoints limpios, automatizacion y pipelines de datos que soportan cargas reales.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-reveal="up">
+          <div class="highlight-card">
+            <i class="bi bi-shield-lock-fill"></i>
+            <h3>Seguridad aplicada</h3>
+            <p>Autenticacion 2FA, control de roles y procesos seguros para entornos corporativos.</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-reveal="up">
+          <div class="highlight-card">
+            <i class="bi bi-graph-up-arrow"></i>
+            <h3>Insights accionables</h3>
+            <p>Dashboards, reportes y analitica visual que conectan negocio y tecnologia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="feed" class="section-feed">
+    <div class="container">
+      <div class="row g-4">
+        <aside class="col-lg-3 d-none d-lg-flex flex-column gap-3" data-reveal="left">
+          <div class="card profile-card">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <img src="./client/img/traje.png" alt="Ricardo Alexis" class="mini-avatar">
+                <div class="ms-2">
+                  <h3 class="h6 mb-0">Ricardo Alexis</h3>
+                  <small class="text-body-secondary">@ricardo.dev</small>
+                </div>
+              </div>
+              <ul class="list-unstyled mb-0 profile-info">
+                <li><i class="bi bi-pin-map"></i> Mexico</li>
+                <li><i class="bi bi-briefcase"></i> Full Stack Developer Jr</li>
+                <li><i class="bi bi-clock-history"></i> Disponible para proyectos</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h3 class="h6 text-uppercase text-body-secondary mb-3">Tecnologias base</h3>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="chip">Node.js</span>
+                <span class="chip">Angular</span>
+                <span class="chip">SQL Server</span>
+                <span class="chip">MongoDB</span>
+                <span class="chip">AWS S3</span>
+                <span class="chip">Linux Ubuntu</span>
+                <span class="chip">Automatizacion</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <main class="col-lg-6 col-12">
+          <div class="stories" data-reveal="up">
+            <button class="story add" id="addStoryBtn" type="button">
+              <i class="bi bi-plus-lg"></i>
+              <span>Agregar historia</span>
+            </button>
+            <div class="story">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=120&q=60" alt="Infraestructura">
+              <span>DevOps</span>
+            </div>
+            <div class="story">
+              <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=120&q=60" alt="Dashboard">
+              <span>Dashboard</span>
+            </div>
+            <div class="story">
+              <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=120&q=60" alt="Automatizacion">
+              <span>Automation</span>
+            </div>
+          </div>
+
+          <div class="card composer mt-3" data-reveal="up">
+            <div class="card-body">
+              <div class="d-flex align-items-start gap-3">
+                <img src="./client/img/traje.png" alt="Ricardo" class="mini-avatar">
+                <div class="flex-grow-1">
+                  <textarea id="composerText" class="form-control" rows="3" maxlength="280" placeholder="Comparte una actualizacion tecnica..." aria-label="Redactar publicacion"></textarea>
+                  <div class="d-flex align-items-center gap-2 mt-3 flex-wrap">
+                    <div class="btn-group" role="group" aria-label="Acciones del editor">
+                      <button id="btnAttach" class="btn btn-ghost btn-sm btn-raise" type="button" aria-label="Adjuntar imagen"><i class="bi bi-image"></i></button>
+                      <button id="btnTag" class="btn btn-ghost btn-sm btn-raise" type="button" aria-label="Agregar etiqueta"><i class="bi bi-hash"></i></button>
+                    </div>
+                    <input type="file" id="composerImage" class="d-none" accept="image/*">
+                    <span class="ms-auto text-body-secondary" id="charCount">0/280</span>
+                    <button id="publishBtn" class="btn btn-gradient btn-raise btn-md" type="button" disabled>
+                      <i class="bi bi-send me-1"></i> Publicar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="feedList" class="feed-list mt-3" aria-live="polite" data-reveal="up"></div>
+
+          <div class="d-grid mt-3" data-reveal="up">
+            <button id="loadMoreBtn" class="btn btn-outline-lime btn-raise" type="button">
+              <i class="bi bi-arrow-repeat me-1"></i> Cargar mas
+            </button>
+          </div>
+        </main>
+
+        <aside class="col-lg-3 d-none d-lg-flex flex-column gap-3" data-reveal="right">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="h6 text-uppercase text-body-secondary mb-3">Logros recientes</h3>
+              <ul class="list-unstyled mb-0 timeline">
+                <li>
+                  <span class="dot"></span>
+                  2025 - Migracion de datos automatizada con SFTP y scripts Node.js
+                </li>
+                <li>
+                  <span class="dot"></span>
+                  2024 - Implementacion de dashboard analitico para inventarios
+                </li>
+                <li>
+                  <span class="dot"></span>
+                  2024 - Autenticacion 2FA corporativa en Angular
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h3 class="h6 text-uppercase text-body-secondary mb-3">Recursos</h3>
+              <div class="d-flex flex-column gap-2">
+                <a class="link-muted" href="#" target="_blank" rel="noopener"><i class="bi bi-github me-1"></i> GitHub</a>
+                <a class="link-muted" href="#" target="_blank" rel="noopener"><i class="bi bi-linkedin me-1"></i> LinkedIn</a>
+                <a class="link-muted" href="#"><i class="bi bi-envelope me-1"></i> Email</a>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-12 col-lg-7" data-reveal="up">
+          <h2 class="h3 mb-3">Sobre mi</h2>
+          <p>
+            Soy un desarrollador tranquilo, con pensamiento sistemico y compromiso por entregar soluciones elegantes que resuelven problemas reales. Disfruto diseñar arquitecturas modulares, documentar buenas practicas y acompaniar la adopcion tecnologica con equipos multidisciplinares.
+          </p>
+          <ul class="list-unstyled text-body-secondary mb-0">
+            <li data-reveal="up"><i class="bi bi-check2-circle me-2"></i> Full Stack JavaScript: Angular, Node.js, Express</li>
+            <li data-reveal="up"><i class="bi bi-check2-circle me-2"></i> SQL Server, MySQL, MongoDB y Cassandra</li>
+            <li data-reveal="up"><i class="bi bi-check2-circle me-2"></i> Automatizacion en Linux, pipelines SFTP y AWS S3</li>
+            <li data-reveal="up"><i class="bi bi-check2-circle me-2"></i> Interfaces modernas inspiradas en redes sociales</li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-5" data-reveal="left">
+          <div class="focus-card">
+            <h3 class="h6 text-uppercase text-body-secondary mb-2">Servicios clave</h3>
+            <ul class="mb-0 focus-list">
+              <li><i class="bi bi-kanban"></i> Diseno de plataformas web corporativas</li>
+              <li><i class="bi bi-hdd-network"></i> APIs, integraciones y microservicios en Node.js</li>
+              <li><i class="bi bi-cloud-arrow-up"></i> Automatizacion de flujos y orquestacion de datos</li>
+              <li><i class="bi bi-shield-check"></i> Seguridad, monitoreo y documentacion tecnica</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades" class="bg-body-tertiary">
+    <div class="container">
+      <h2 class="h3 mb-4" data-reveal="up">Habilidades</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-6" data-reveal="up">
+          <div class="skill-card">
+            <h3 class="h6 text-uppercase text-body-secondary">Lenguajes and Core</h3>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge badge-tech">Java</span>
+              <span class="badge badge-tech">Python</span>
+              <span class="badge badge-tech">PHP</span>
+              <span class="badge badge-tech">JavaScript</span>
+              <span class="badge badge-tech">HTML</span>
+              <span class="badge badge-tech">CSS</span>
+              <span class="badge badge-tech">Node.js</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6" data-reveal="up">
+          <div class="skill-card">
+            <h3 class="h6 text-uppercase text-body-secondary">Bases de datos</h3>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge badge-tech">MySQL</span>
+              <span class="badge badge-tech">MariaDB</span>
+              <span class="badge badge-tech">SQL Server</span>
+              <span class="badge badge-tech">MongoDB</span>
+              <span class="badge badge-tech">Cassandra</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6" data-reveal="up">
+          <div class="skill-card">
+            <h3 class="h6 text-uppercase text-body-secondary">Frameworks and Tools</h3>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge badge-tech">Angular</span>
+              <span class="badge badge-tech">Bootstrap</span>
+              <span class="badge badge-tech">Express</span>
+              <span class="badge badge-tech">XAMPP</span>
+              <span class="badge badge-tech">Postman</span>
+              <span class="badge badge-tech">Git</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6" data-reveal="up">
+          <div class="skill-card">
+            <h3 class="h6 text-uppercase text-body-secondary">Metodologias</h3>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge badge-tech">REST</span>
+              <span class="badge badge-tech">Clean Code</span>
+              <span class="badge badge-tech">Scrum</span>
+              <span class="badge badge-tech">Testing</span>
+              <span class="badge badge-tech">CI/CD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos">
+    <div class="container">
+      <h2 class="h3 mb-4" data-reveal="up">Proyectos destacados</h2>
+      <div class="row g-4">
+        <div class="col-12 col-lg-6" data-reveal="up">
+          <article class="card project-card h-100">
+            <div class="project-media">
+              <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=900&q=60" alt="Sistema Multi-Inventario">
+              <span class="project-pill"><i class="bi bi-database"></i> Inventarios</span>
+            </div>
+            <div class="card-body">
+              <div class="project-meta mb-2">Junio 2024 - Octubre 2024 - UNIPARTS S.A de C.V</div>
+              <h3 class="h5">Sistema Multi-Inventario</h3>
+              <p>
+                Plataforma integral con consultas en tiempo real para gestionar tickets, compras, cuentas de usuario y equipos asignados.
+              </p>
+              <ul class="project-list">
+                <li>Dashboard con graficas mensuales y reporte de consumo de insumos.</li>
+                <li>Control de accesos y monitoreo de tickets de soporte.</li>
+                <li>Automatizacion de workflows sobre Node.js y MySQL.</li>
+              </ul>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge text-bg-light">Node.js</span>
+                <span class="badge text-bg-light">MySQL</span>
+                <span class="badge text-bg-light">Bootstrap</span>
+                <span class="badge text-bg-light">XAMPP</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-lg-6" data-reveal="up">
+          <article class="card project-card h-100">
+            <div class="project-media">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=60" alt="Autenticacion 2FA Angular">
+              <span class="project-pill"><i class="bi bi-shield-lock"></i> Seguridad</span>
+            </div>
+            <div class="card-body">
+              <div class="project-meta mb-2">Julio 2025 - Agosto 2025 - Grupo GABSSA</div>
+              <h3 class="h5">Autenticacion 2FA en Angular</h3>
+              <p>
+                Implementacion de registro y validacion de usuarios con doble factor, tokens por SMS y correo, y modulo de recuperacion de contrasenas.
+              </p>
+              <ul class="project-list">
+                <li>Backend Node.js con SQL Server y almacenamiento de archivos seguro.</li>
+                <li>Experiencia centrada en usuarios internos con flujos guiados.</li>
+                <li>Auditoria y registro detallado de accesos.</li>
+              </ul>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge text-bg-light">Angular</span>
+                <span class="badge text-bg-light">Node.js</span>
+                <span class="badge text-bg-light">SQL Server</span>
+                <span class="badge text-bg-light">2FA</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-lg-6" data-reveal="up">
+          <article class="card project-card h-100">
+            <div class="project-media">
+              <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=900&q=60" alt="Automatizacion de procesos">
+              <span class="project-pill"><i class="bi bi-arrow-repeat"></i> Automatizacion</span>
+            </div>
+            <div class="card-body">
+              <div class="project-meta mb-2">2025 - Grupo GABSSA</div>
+              <h3 class="h5">Transferencia y Automatizacion de archivos</h3>
+              <p>
+                Sistema de migracion de grandes volumenes de informacion en entornos Linux, con pipelines Node.js y SFTP.
+              </p>
+              <ul class="project-list">
+                <li>Flujos automaticos de descarga, unzip, conversion a CSV y carga a bases corporativas.</li>
+                <li>Integracion con Amazon S3 para manejo de archivos y audios.</li>
+                <li>Monitoreo y alertas para garantizar integridad de datos.</li>
+              </ul>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge text-bg-light">Node.js</span>
+                <span class="badge text-bg-light">Linux Ubuntu</span>
+                <span class="badge text-bg-light">SFTP</span>
+                <span class="badge text-bg-light">Amazon S3</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-lg-6" data-reveal="up">
+          <article class="card project-card h-100">
+            <div class="project-media">
+              <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=60" alt="Proyecto Red Social">
+              <span class="project-pill"><i class="bi bi-people"></i> Social</span>
+            </div>
+            <div class="card-body">
+              <div class="project-meta mb-2">Agosto 2024 - Noviembre 2024 - Curso UDEMY</div>
+              <h3 class="h5">Proyecto Red Social</h3>
+              <p>
+                Plataforma tipo Twitter con autenticacion, timeline y gestion de seguidores. Backend Node.js y base de datos MongoDB.
+              </p>
+              <ul class="project-list">
+                <li>Endpoints testeados con Postman y cobertura de casos criticos.</li>
+                <li>Diseno de esquema para publicaciones, comentarios y relaciones.</li>
+                <li>Frontend adaptable inspirado en redes sociales modernas.</li>
+              </ul>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge text-bg-light">Node.js</span>
+                <span class="badge text-bg-light">MongoDB</span>
+                <span class="badge text-bg-light">Postman</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-lg-6" data-reveal="up">
+          <article class="card project-card h-100">
+            <div class="project-media">
+              <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=900&q=60" alt="Bitacora de prestaciones">
+              <span class="project-pill"><i class="bi bi-journal-check"></i> RH</span>
+            </div>
+            <div class="card-body">
+              <div class="project-meta mb-2">Enero 2025 - Marzo 2025 - UNIPARTS S.A de C.V</div>
+              <h3 class="h5">Bitacora de prestaciones</h3>
+              <p>
+                Aplicacion web para Recursos Humanos orientada al registro y seguimiento de prestaciones de ley.
+              </p>
+              <ul class="project-list">
+                <li>UI responsiva y despliegue en entorno local.</li>
+                <li>Reportes para auditoria y recuperacion de datos.</li>
+                <li>Integracion con procesos existentes mediante XAMPP.</li>
+              </ul>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge text-bg-light">Bootstrap 5</span>
+                <span class="badge text-bg-light">HTML/JS</span>
+                <span class="badge text-bg-light">XAMPP</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-lg-6" data-reveal="up">
+          <article class="card project-card h-100">
+            <div class="project-media">
+              <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=900&q=60" alt="Sistema de ligas deportivas">
+              <span class="project-pill"><i class="bi bi-trophy"></i> Deporte</span>
+            </div>
+            <div class="card-body">
+              <div class="project-meta mb-2">2023 - Sistema maquina arcade shark</div>
+              <h3 class="h5">juego de arcade Shark</h3>
+              <p>
+                Aplicacion con registro, consulta y validacion de puntos de los juagadores empleando Node.js y Cassandra.
+              </p>
+              <ul class="project-list">
+                <li>Validaciones por IP local y carpetas compartidas.</li>
+                <li>Respaldo y recuperacion ante perdida de datos.</li>
+                <li>Panel administrativo accesible y seguro.</li>
+              </ul>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="badge text-bg-light">Node.js</span>
+                <span class="badge text-bg-light">Cassandra</span>
+                <span class="badge text-bg-light">HTML/CSS/JS</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="bg-body-tertiary">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-12 col-lg-7" data-reveal="up">
+          <h2 class="h3 mb-3">Contacto</h2>
+          <p>
+            &iquest;Proyecto en mente o quieres iterar un producto existente? Escribeme y agendemos una llamada.
+          </p>
+          <a class="btn btn-gradient btn-raise btn-md" href="#">
+            <i class="bi bi-envelope me-1"></i> ricardo.alexis031299@gmail.com
+          </a>
+        </div>
+        <div class="col-12 col-lg-5" data-reveal="left">
+          <div class="contact-card">
+            <h3 class="h6 text-uppercase text-body-secondary">Preferencias</h3>
+            <ul class="mb-0 contact-list">
+              <li><i class="bi bi-check2"></i> Equipos que valoran la documentacion y la calidad.</li>
+              <li><i class="bi bi-check2"></i> Proyectos con impacto en operaciones o inteligencia de negocio.</li>
+              <li><i class="bi bi-check2"></i> Colaboraciones remotas o hibridas.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-4">
+    <div class="container text-center text-body-secondary small">
+      &copy; <span id="y"></span> Ricardo Alexis - Todos los derechos reservados
+    </div>
+  </footer>
+
+  <a href="#top" id="toTop" class="btn btn-gradient rounded-circle shadow btn-raise" aria-label="Volver arriba" title="Volver arriba">
+    <i class="bi bi-arrow-up"></i>
+  </a>
+
+  <button id="chatToggle" class="chat-toggle btn btn-gradient btn-raise rounded-circle" type="button" aria-expanded="false" aria-controls="chatWidget" aria-label="Abrir asistente virtual">
+    <i class="bi bi-chat-dots"></i>
+  </button>
+
+  <section id="chatWidget" class="chat-widget shadow-lg" hidden role="dialog" aria-modal="false" aria-label="Asistente virtual" tabindex="-1">
+    <header class="chat-header">
+      <div>
+        <h2 class="h6 mb-0">Asistente</h2>
+        <small class="text-body-secondary">Ricardo responde</small>
+      </div>
+      <button id="chatClose" class="btn btn-ghost btn-sm btn-raise" type="button" aria-label="Cerrar asistente">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </header>
+    <div id="chatMessages" class="chat-messages" role="log" aria-live="polite"></div>
+    <form id="chatForm" class="chat-form" autocomplete="off">
+      <label class="visually-hidden" for="chatInput">Escribe tu mensaje</label>
+      <input id="chatInput" class="form-control" type="text" placeholder="Escribe tu mensaje..." required autocomplete="off">
+      <button class="btn btn-gradient btn-raise" type="submit" aria-label="Enviar mensaje">
+        <i class="bi bi-send"></i>
+      </button>
+    </form>
+  </section>
+
+  <div class="modal fade" id="imgModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-transparent border-0">
+        <button type="button" class="btn-close ms-auto me-2 mt-2" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        <img id="imgModalSrc" class="img-fluid rounded-3 shadow" alt="">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+          crossorigin="anonymous"></script>
+  <script src="./server/index.js"></script>
+</body>
+</html>
+
+
